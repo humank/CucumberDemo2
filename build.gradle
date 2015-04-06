@@ -1,0 +1,22 @@
+apply plugin: 'java'
+
+version = '1.0-SNAPSHOT'
+
+dependencies {
+    testCompile 'junit:junit:4.11',
+            'info.cukes:cucumber-java:1.2.2',
+            'info.cukes:cucumber-junit:1.2.2'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
